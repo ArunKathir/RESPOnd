@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0;
+    padding: 20px;
+    background-color:rgb(82, 52, 52) ;
+    position:absolute;
+}
+.headder{
+    background-color:rgb(245, 227, 227);
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.list a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.list  li{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.list a:hover{
+    color: green;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(245, 227, 227);
+    border-radius: 10px;
+}
+h1 .span{
+    color: green;
+    font-weight: -100;
+    align-items: flex-end;
+}
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+.bigimg{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.radiobtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.radiobtn input{
+    margin-left: 10px;
+    color: black;
+}
+.tableview{
+    display: inline-block;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* flex-wrap: nowrap; */
+    background-color: rgb(233, 226, 223);
+    border-radius: 10px;
+}
+@media(max-width:750px){
+    .tableview{
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+    }
+}
+.tableview img{
+    height: 200px;
+    border-radius: 30px;
+    padding: 10px;
+    width:100%;
+}
+@media(max-width:750px){
+    .tableview img{
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+    }
+}
+.head123{
+    display: flex;
+    justify-content: space-around;
+}
+.para123{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.orlg{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+}
+.orlg .orcl{
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 17px;
+
+}
+.orlg .orcl:hover{
+    background-color: black;
+    color: yellow;
+    transition: 0.5s;
+    text-decoration: solid;
+}
+.copy{
+    color: beige;
+}
+.copycont{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
